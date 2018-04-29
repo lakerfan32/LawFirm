@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/companylogo" />
+
+    <TextView
+        android:id="@+id/description_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:gravity="center_horizontal"
+        android:padding="18dp"
+        android:lineSpacingExtra="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/description"
+        android:textColor="@color/Red"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hours_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="18dp"
+        android:paddingBottom="14dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/hours"
+        android:textColor="@color/Grey"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/number_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/hours_text_view"
+        android:layout_alignParentRight="true"
+        android:paddingRight="18dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/contact"
+        android:textColor="@color/Grey"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/city_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/number_text_view"
+        android:layout_alignParentRight="true"
+        android:paddingRight="18dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/city"
+        android:textColor="@color/Grey"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/addr_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/city_text_view"
+        android:layout_alignParentRight="true"
+        android:paddingRight="18dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/address"
+        android:textColor="@color/Grey"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+

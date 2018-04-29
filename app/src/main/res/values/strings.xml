@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LawFirm</string>
+    <string name="description">Munar Law is a full-service real estate and business law firm.
+        We offer title and escrow services for both commercial and residential transactions.</string>
+    <string name="hours">Mon-Fri: 9:00am - 5:30pm</string>
+    <string name="contact">305-677-6513</string>
+    <string name="city">Doral,FL 33166</string>
+    <string name="address">8180 NW 36th Street  Ste. 309</string>
+</resources>
