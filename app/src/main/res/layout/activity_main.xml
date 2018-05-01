@@ -35,6 +35,7 @@
         android:fontFamily="sans-serif-smallcaps"
         android:paddingBottom="@dimen/padding_bottom"
         android:paddingRight="@dimen/padding_right"
+        android:paddingTop="@dimen/padding_top"
         android:text="@string/hours"
         android:textColor="@color/Grey"
         android:textSize="@dimen/size" />
@@ -48,6 +49,7 @@
         android:autoLink="all"
         android:fontFamily="sans-serif-smallcaps"
         android:paddingRight="@dimen/padding_right"
+        android:paddingTop="@dimen/padding_top"
         android:text="@string/contact"
         android:textColor="@color/Grey"
         android:textColorLink="@color/Grey"
