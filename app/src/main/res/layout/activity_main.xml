@@ -18,10 +18,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
-        android:gravity="center_horizontal"
-        android:padding="18dp"
-        android:lineSpacingExtra="8dp"
         android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="8dp"
+        android:padding="18dp"
         android:text="@string/description"
         android:textColor="@color/Red"
         android:textSize="@dimen/size" />
@@ -32,9 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:paddingRight="@dimen/padding_right"
-        android:paddingBottom="@dimen/padding_bottom"
         android:fontFamily="sans-serif-smallcaps"
+        android:paddingBottom="@dimen/padding_bottom"
+        android:paddingRight="@dimen/padding_right"
         android:text="@string/hours"
         android:textColor="@color/Grey"
         android:textSize="@dimen/size" />
@@ -45,34 +45,26 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/hours_text_view"
         android:layout_alignParentRight="true"
-        android:paddingRight="@dimen/padding_right"
+        android:autoLink="all"
         android:fontFamily="sans-serif-smallcaps"
+        android:paddingRight="@dimen/padding_right"
         android:text="@string/contact"
         android:textColor="@color/Grey"
-        android:textSize="@dimen/size" />
-
-    <TextView
-        android:id="@+id/city_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/number_text_view"
-        android:layout_alignParentRight="true"
-        android:paddingRight="@dimen/padding_right"
-        android:fontFamily="sans-serif-smallcaps"
-        android:text="@string/city"
-        android:textColor="@color/Grey"
+        android:textColorLink="@color/Grey"
         android:textSize="@dimen/size" />
 
     <TextView
         android:id="@+id/addr_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/city_text_view"
+        android:layout_above="@id/number_text_view"
         android:layout_alignParentRight="true"
-        android:paddingRight="@dimen/padding_right"
+        android:autoLink="all"
         android:fontFamily="sans-serif-smallcaps"
+        android:paddingRight="@dimen/padding_right"
         android:text="@string/address"
         android:textColor="@color/Grey"
+        android:textColorLink="@color/Grey"
         android:textSize="@dimen/size" />
 
 </RelativeLayout>
